@@ -1,16 +1,17 @@
-/* src/index.css */
-
+/* General body styling */
 body {
   padding: 16px;
   display: flex;
   flex-direction: column;
 }
 
+/* Root container */
 #root {
   width: 100%;
   height: 100%;
 }
 
+/* List styles */
 ul {
   padding: 0;
   display: flex;
@@ -21,11 +22,13 @@ li {
   margin-right: 16px;
 }
 
+/* Mailbox container */
 .mail-box {
   border: 2px solid white;
   padding: 20px;
 }
 
+/* Form styling */
 form {
   display: flex;
   flex-direction: column;
@@ -33,62 +36,27 @@ form {
 
 label,
 button {
-  margin: 16px 0px;
+  margin: 16px 0;
   font-weight: bold;
 }
 
+/* Input fields */
 input,
 select,
 textarea {
   padding: 8px;
 }
 
+/* Button styling */
 button {
   background-color: #535bf2;
-}
-
-
-body {
-  margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
-}
-
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
-}
-
-button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
+  color: white;
+  border: none;
+  padding: 8px 16px;
   cursor: pointer;
-  transition: border-color 0.25s;
-}
-button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
+  transition: background-color 0.3s ease;
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
+button:hover {
+  background-color: #434ae8;
 }
